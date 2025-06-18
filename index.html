@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roof Water Calculator</title>
-</head>
+    <link rel="icon" type="image/x-icon" href="logo2.png"></head>
 <body>
 
     <h1>How much rainfall could be captured by your roof</h1>
+    <p>What is the square footage of your structure?</p>
 
-    <input type = "text" >
+    <input id = "sqrfeet" type = "text" placeholder="How many square feet">
+    <p>How many inches of rain per year on average are in your area?</p>
+
+    <!--0.62 is the magic number for roofwater catchment math so rain per year x square feet x 0.62 to get total galons of water-->
+
+    <input id = "rainfall" type = "text" placeholder="Inches of rain per year">
+
+    <p id = "result">text to be chaged</p>
+
 
     
 </body>
