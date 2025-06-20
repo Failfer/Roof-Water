@@ -1,5 +1,8 @@
 body{
     text-align: center;
     background-image: linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     color: lightskyblue;
 }
